@@ -1,5 +1,8 @@
 {
-  "theme": "dark",
+  "env": {
+    "CLAUDE_CODE_MAX_RETRIES": "3",
+    "API_TIMEOUT_MS": "30000"
+  },
   "permissions": {
     "deny": [
       "Bash(**/.env)",
@@ -7,9 +10,9 @@
       "Write(**/.env)"
     ]
   },
-  "env": {
-    "CLAUDE_CODE_MAX_RETRIES": "3",
-    "API_TIMEOUT_MS": "30000"
-  },
-  "alwaysThinkingEnabled": true
+  "alwaysThinkingEnabled": true,
+  "theme": "dark",
+  "enabledPlugins": {
+    "commit-commands@claude-plugins-official": true
+  }
 }
