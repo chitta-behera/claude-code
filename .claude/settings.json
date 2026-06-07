@@ -1,0 +1,15 @@
+{
+  "theme": "dark",
+  "permissions": {
+    "deny": [
+      "Bash(**/.env)",
+      "Read(**/.env)",
+      "Write(**/.env)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_MAX_RETRIES": "3",
+    "API_TIMEOUT_MS": "30000"
+  },
+  "alwaysThinkingEnabled": true
+}
