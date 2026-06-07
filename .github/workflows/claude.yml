@@ -35,3 +35,4 @@ jobs:
             on specific lines using `mcp__github_inline_comment__create_inline_comment`.
         env:
           ANTHROPIC_BASE_URL: http://localhost:4000
+          ANTHROPIC_AUTH_TOKEN: sk-ant-api03-dummy-example-key-not-valid
